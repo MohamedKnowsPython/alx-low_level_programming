@@ -18,3 +18,5 @@ while (n <= 122)
 	n++;
 }
 putchar("\n");
+return (0);
+}
