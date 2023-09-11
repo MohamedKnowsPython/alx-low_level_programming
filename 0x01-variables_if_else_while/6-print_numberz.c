@@ -8,8 +8,8 @@ int main(void)
 int i;
 for (i = 0; i <= 9; i++)
 {
-	putchar(n + 48);
+	putchar(i + 48);
 }
-putchar('\n');
+putchar('\i');
 return (0);
 }
