@@ -5,8 +5,13 @@
  */
 int main(void)
 {
-for (char letter = 'a'; letter <= 'z'; letter++)
-	putchar(letter);
+int n = 97;
+while (n <= 122)
+{
+
+	putchar(n);
+	n++;
+}
 putchar('\n');
 return (0);
 }
