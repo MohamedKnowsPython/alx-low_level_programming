@@ -10,6 +10,6 @@ for (i = 0; i <= 9; i++)
 {
 	putchar(n + 48);
 }
-putchar('\n')
+putchar('\n');
 return (0);
 }
