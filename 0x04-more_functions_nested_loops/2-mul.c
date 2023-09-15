@@ -10,6 +10,8 @@
 
 int mul(int j, int k)
 {
+
 	int answer = j * k;
+
 	return (answer);
 }
