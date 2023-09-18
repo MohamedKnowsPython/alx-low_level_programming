@@ -1,14 +1,17 @@
 #include "main.h"
 /**
- * swap_int - swaps the values of two intergers
- * @a: interger to swap
- * @b: interger to swap
+ * _strlen - returns the lengthof a string
+ * @s: string
+ * Return: length
  */
-void swap_int(int *a, int *b)
+int _strlen(char *s)
 {
-	int m;
+	int length = 0;
 
-	m = *a;
-	*a = *b;
-	*b = m;
+	while (*s != '\0')
+	{
+		length++;
+		s++;
+	}
+	return (length);
 }
