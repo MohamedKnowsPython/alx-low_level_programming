@@ -4,14 +4,14 @@
 #include <string.h>
 #include <stdlib.h>
 /**
- * struct lists_s - sinle linked list
+ * struct list_s - sinle linked list
  *@str: string - malloc string
  * @next: next poiner
  * @len: string length
  * @str: string - malloc string
  * Description: linked list node structure
  */
-typedef struct lists_s
+typedef struct list_s
 {
 	char *str;
 	unsigned int len;
