@@ -1,4 +1,3 @@
-#include "main.h"
 #include "lists.h"
 /**
  * _isalpha - func to check if its alphabet
